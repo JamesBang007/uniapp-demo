@@ -4,6 +4,13 @@
 		<view>
             <text class="title">{{title}}</text>
         </view>
+        <view class="index-list">
+        	<view class="item">
+        		<navigator url="../demo/index?id=101&title=demo" hover-class="navigator-hover">
+                    demo
+                </navigator>
+        	</view>
+        </view>
 	</view>
 </template>
 
