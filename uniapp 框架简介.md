@@ -22,7 +22,7 @@ uni-app 是一个使用 Vue.js 开发跨平台应用的前端框架，开发者�
     │  │  └─index.vue       index页面
     │  └─list
     │     └─list.vue        list页面
-    ├─static                存放应用引用静态资源（如图片、视频等）的地方，**注意：** 静态资源只能存放于此
+    ├─static                存放应用引用静态资源（如图片、视频等）的地方，注意：静态资源只能存放于此
     ├─common                公用的资源（js、css、less/scss）
     ├─main.js               Vue初始化入口文件
     ├─App.vue               应用配置，用来配置App全局样式以及监听 [应用生命周期](https://uniapp.dcloud.io/frame?id=应用生命周期)
@@ -239,7 +239,7 @@ if (process.env.NODE_ENV === 'production') {
 uni-app 提供内置 CSS 变量
 
 |CSS变量			|描述					    |5+App			|小程序	|H5						|
-|--	|--	|--	|--	|
+|--	|--	|--	|--	|--	|
 |--status-bar-height|系统状态栏高度			|系统状态栏高度	|25px	|0						|
 |--window-top		|内容区域距离顶部的距离	|0				|0		|NavigationBar 的高度	|
 |--window-bottom	|内容区域距离底部的距离	|0				|0		|TabBar 的高度			|
